@@ -1,6 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Link from "./Link.react";
+import Button from "./Button.react";
 
 function App() {
   return (
@@ -18,6 +20,10 @@ function App() {
         >
           Learn React
         </a>
+
+        <Link page="https://jstor.org">See JSTOR</Link>
+
+        <Button>Button Here!</Button>
       </header>
     </div>
   );
